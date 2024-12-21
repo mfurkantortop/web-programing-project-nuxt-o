@@ -15,7 +15,7 @@
   </template>
   
   <script lang="ts" setup>
-  import ProductCard from './ProductCard.vue';
+  import ProductCard from '~/components/ProductCard/index.vue';
   
   defineProps({
     products: Array as () => {

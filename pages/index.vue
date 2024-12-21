@@ -1,6 +1,7 @@
 <template>
     <div>
       <Header />
+      <ProfileHeader />
       <HeroSection />
       <SearchBar />
       <FeaturedProducts :products="products" />
@@ -15,14 +16,7 @@
   </template>
 
 <script lang="ts" setup>
-import Header from '@/components/Header.vue';
-import HeroSection from '@/components/HeroSection.vue';
-import SearchBar from '@/components/SearchBar.vue';
-import FeaturedProducts from '@/components/FeaturedProducts.vue';
-import CategoryList from '@/components/CategoryList.vue';
-import Testimonial from '@/components/Testimonial.vue';
-import NewsletterSignup from '@/components/NewsletterSignup.vue';
-import Footer from '@/components/Footer.vue';
+
 
 const products = [
   {
@@ -44,5 +38,3 @@ const products = [
 const categories = ['Clothing', 'Accessories', 'Shoes', 'Sale'];
 </script>
 
-<style scoped>
-</style>
